@@ -1,3 +1,6 @@
+input.onGesture(Gesture.Shake, function () {
+    radio.sendNumber(0)
+})
 input.onButtonPressed(Button.A, function () {
     list = [1, 2, -2]
     text_list = ["red", "blue", "green"]
